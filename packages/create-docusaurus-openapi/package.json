@@ -1,6 +1,6 @@
 {
   "name": "create-docusaurus-openapi",
-  "version": "0.6.9",
+  "version": "0.6.10",
   "description": "Create Docusaurus apps easily.",
   "repository": {
     "type": "git",
@@ -41,5 +41,5 @@
     "@types/shelljs": "^0.8.6",
     "@types/supports-color": "^8.1.1"
   },
-  "gitHead": "b473f8c2ec5625e10aa34f6622bb1895006db888"
+  "gitHead": "14cfb4f73704043cc133dc15978ac2993dde4633"
 }
