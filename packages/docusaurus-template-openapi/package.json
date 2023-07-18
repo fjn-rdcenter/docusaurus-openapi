@@ -1,6 +1,6 @@
 {
-  "name": "docusaurus-template-openapi",
-  "version": "0.6.4",
+  "name": "@fjn-rdcenter/docusaurus-template-openapi",
+  "version": "0.6.16",
   "keywords": [
     "react",
     "create-docusaurus",
@@ -10,11 +10,11 @@
   "description": "OpenAPI template for Docusaurus.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi.git",
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi.git",
     "directory": "packages/docusaurus-template-openapi"
   },
   "bugs": {
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi/issues"
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi/issues"
   },
   "license": "MIT",
   "engines": {
@@ -23,5 +23,6 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "gitHead": "a263e8a3d403ef295e97f9569f45e31514b04322"
 }

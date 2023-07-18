@@ -1,5 +1,16 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.16",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com/@fjn-rdcenter"
+    }
+  },
+  "npmClientArgs": ["--ignore-scripts"],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@fjn-rdcenter"
+  },
+  "registry": "https://github.com/fjn-rdcenter/docusaurus-openapi.git"
 }

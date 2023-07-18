@@ -38,11 +38,14 @@ async function makeRequest(
   _body: Body
 ) {
   const headers = request.toJSON().header;
-
   let myHeaders = new Headers();
   if (headers) {
     headers.forEach((header) => {
-      if (header.key && header.value) {
+      if (
+        header.key &&
+        header.value &&
+        header.key.toLowerCase() !== "Content-Type".toLowerCase()
+      ) {
         myHeaders.append(header.key, header.value);
       }
     });
@@ -120,6 +123,7 @@ async function makeRequest(
   // }
 
   const body = request.body?.toJSON();
+  const bodyFile = request.body;
 
   let myBody: RequestInit["body"] = undefined;
   if (body !== undefined && Object.keys(body).length > 0) {
@@ -141,10 +145,14 @@ async function makeRequest(
       }
       case "formdata": {
         myBody = new FormData();
-        if (Array.isArray(body.formdata)) {
-          for (const data of body.formdata) {
+        if (
+          bodyFile !== undefined &&
+          bodyFile.formdata !== undefined &&
+          Array.isArray(bodyFile?.formdata?.all())
+        ) {
+          for (let data of bodyFile?.formdata?.all()) {
             if (data.key && data.value) {
-              myBody.append(data.key, data.value);
+              myBody.append(data.key, data.value.content);
             }
           }
         }

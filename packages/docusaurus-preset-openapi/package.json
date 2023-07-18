@@ -1,7 +1,7 @@
 {
-  "name": "docusaurus-preset-openapi",
+  "name": "@fjn-rdcenter/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.4",
+  "version": "0.6.16",
   "license": "MIT",
   "keywords": [
     "openapi",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi.git",
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi.git",
     "directory": "packages/docusaurus-preset-openapi"
   },
   "bugs": {
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi/issues"
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi/issues"
   },
   "main": "lib/index.js",
   "types": "src/preset-openapi.d.ts",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0",
-    "docusaurus-plugin-openapi": "^0.6.4",
-    "docusaurus-plugin-proxy": "^0.6.3",
-    "docusaurus-theme-openapi": "^0.6.4"
+    "docusaurus-plugin-openapi": "^0.6.15",
+    "docusaurus-plugin-proxy": "^0.6.15",
+    "docusaurus-theme-openapi": "^0.6.15"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",
@@ -42,5 +42,6 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "gitHead": "a263e8a3d403ef295e97f9569f45e31514b04322"
 }

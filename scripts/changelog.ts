@@ -10,9 +10,9 @@ import pkg from "../lerna.json";
 import { getOutput } from "./utils/get-output";
 import { printBanner, printSpacer } from "./utils/print-utils";
 
-const ORG = "cloud-annotations";
+const ORG = "fjn-rdcenter";
 const REPO = "docusaurus-openapi";
-const BRANCH = "main";
+const BRANCH = "feature/fix_bug_missing_boundary_in_multipart";
 
 const COMMIT_FILTERS = [/\(release\) v.*/];
 

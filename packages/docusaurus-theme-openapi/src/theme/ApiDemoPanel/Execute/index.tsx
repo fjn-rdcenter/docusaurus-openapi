@@ -64,6 +64,8 @@ function Execute({ postman, proxy }: Props) {
     auth,
   });
 
+  console.log(postmanRequest);
+
   return (
     <button
       className="button button--block button--primary"
