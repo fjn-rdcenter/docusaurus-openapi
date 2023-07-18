@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0",
-    "docusaurus-plugin-openapi": "^0.6.15",
-    "docusaurus-plugin-proxy": "^0.6.15",
-    "docusaurus-theme-openapi": "^0.6.15"
+    "@fjn-rdcenter/docusaurus-plugin-openapi": "^0.7.2",
+    "@fjn-rdcenter/docusaurus-plugin-proxy": "^0.7.2",
+    "@fjn-rdcenter/docusaurus-theme-openapi": "^0.7.2"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",
