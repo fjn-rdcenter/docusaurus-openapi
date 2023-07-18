@@ -1,7 +1,7 @@
 {
   "name": "@fjn-rdcenter/docusaurus-theme-openapi",
   "description": "OpenAPI theme for Docusaurus.",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@docusaurus/theme-common": "^2.0.0",
-    "@fjn-rdcenter/docusaurus-plugin-openapi": "^0.7.3",
+    "@fjn-rdcenter/docusaurus-plugin-openapi": "^0.7.4",
     "@mdx-js/react": "^1.6.22",
     "@monaco-editor/react": "^4.3.1",
     "@reduxjs/toolkit": "^1.7.1",
