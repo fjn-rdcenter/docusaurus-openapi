@@ -1,5 +1,5 @@
 {
-  "version": "0.6.8",
+  "version": "0.6.9",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": ["packages/*"],
@@ -10,7 +10,7 @@
   },
   "npmClientArgs": ["--ignore-scripts"],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/fjn-rdcenter"
   },
   "registry": "https://npm.pkg.github.com/"
 }

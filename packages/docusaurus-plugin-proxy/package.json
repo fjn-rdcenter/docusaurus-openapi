@@ -1,7 +1,7 @@
 {
   "name": "docusaurus-plugin-proxy",
   "description": "A dev server proxy for Docusaurus.",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -26,5 +26,6 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "gitHead": "b473f8c2ec5625e10aa34f6622bb1895006db888"
 }
