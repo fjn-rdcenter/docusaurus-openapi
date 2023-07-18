@@ -1,7 +1,7 @@
 {
   "name": "@fjn-rdcenter/docusaurus-plugin-proxy",
   "description": "A dev server proxy for Docusaurus.",
-  "version": "0.7.1",
+  "version": "0.7.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,5 @@
   "engines": {
     "node": ">=14"
   },
-  "gitHead": "9a717a42ec714842f8b2174c32adf70de1120316"
+  "gitHead": "3c8b191d8a71031c198ade6f8747ed03b98c37e5"
 }
