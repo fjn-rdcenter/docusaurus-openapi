@@ -1,18 +1,18 @@
 {
   "name": "docusaurus-theme-openapi",
   "description": "OpenAPI theme for Docusaurus.",
-  "version": "0.6.6",
+  "version": "0.6.8",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi.git",
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi.git",
     "directory": "packages/docusaurus-theme-openapi"
   },
   "bugs": {
-    "url": "https://github.com/cloud-annotations/docusaurus-openapi/issues"
+    "url": "https://github.com/fjn-rdcenter/docusaurus-openapi/issues"
   },
   "types": "src/theme-openapi.d.ts",
   "main": "lib/index.js",
@@ -43,7 +43,7 @@
     "buffer": "^6.0.3",
     "clsx": "^1.1.1",
     "crypto-js": "^4.1.1",
-    "docusaurus-plugin-openapi": "^0.6.4",
+    "docusaurus-plugin-openapi": "^0.6.8",
     "immer": "^9.0.7",
     "lodash": "^4.17.20",
     "monaco-editor": "^0.31.1",
@@ -62,5 +62,6 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "gitHead": "45eaaf6ed87e0381c4de42c856b0a6e3f7b43a9e"
 }
