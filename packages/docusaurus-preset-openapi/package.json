@@ -1,7 +1,7 @@
 {
   "name": "@fjn-rdcenter/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "license": "MIT",
   "keywords": [
     "openapi",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0",
-    "@fjn-rdcenter/docusaurus-plugin-openapi": "^0.7.5",
-    "@fjn-rdcenter/docusaurus-plugin-proxy": "^0.7.5",
-    "@fjn-rdcenter/docusaurus-theme-openapi": "^0.7.5"
+    "@fjn-rdcenter/docusaurus-plugin-openapi": "^0.7.6",
+    "@fjn-rdcenter/docusaurus-plugin-proxy": "^0.7.6",
+    "@fjn-rdcenter/docusaurus-theme-openapi": "^0.7.6"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",

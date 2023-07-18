@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0",
-    "@fjn-rdcenter/docusaurus-preset-openapi": "^0.7.5",
+    "@fjn-rdcenter/docusaurus-preset-openapi": "^0.7.6",
     "@mdx-js/react": "^1.6.22",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
