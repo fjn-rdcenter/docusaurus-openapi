@@ -3,7 +3,11 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": ["packages/*"],
-  "command": {},
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com/@fjn-rdcenter"
+    }
+  },
   "npmClientArgs": ["--ignore-scripts"],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@fjn-rdcenter"
