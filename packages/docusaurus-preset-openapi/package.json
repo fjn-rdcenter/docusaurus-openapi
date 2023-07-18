@@ -1,7 +1,7 @@
 {
   "name": "docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "license": "MIT",
   "keywords": [
     "openapi",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0",
-    "docusaurus-plugin-openapi": "^0.6.13",
-    "docusaurus-plugin-proxy": "^0.6.13",
-    "docusaurus-theme-openapi": "^0.6.13"
+    "docusaurus-plugin-openapi": "^0.6.14",
+    "docusaurus-plugin-proxy": "^0.6.14",
+    "docusaurus-theme-openapi": "^0.6.14"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",
@@ -43,5 +43,5 @@
   "engines": {
     "node": ">=14"
   },
-  "gitHead": "e4d35252e21de48c17cbb48f543bcc6f0d741657"
+  "gitHead": "2eb9800f44ee47092c0e5b43405382c7342a6548"
 }
