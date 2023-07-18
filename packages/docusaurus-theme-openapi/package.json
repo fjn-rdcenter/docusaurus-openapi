@@ -1,7 +1,7 @@
 {
   "name": "@fjn-rdcenter/docusaurus-theme-openapi",
   "description": "OpenAPI theme for Docusaurus.",
-  "version": "0.6.16",
+  "version": "0.7.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

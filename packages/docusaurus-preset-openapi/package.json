@@ -1,7 +1,7 @@
 {
   "name": "@fjn-rdcenter/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.16",
+  "version": "0.7.0",
   "license": "MIT",
   "keywords": [
     "openapi",
