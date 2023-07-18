@@ -1,5 +1,16 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.5",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  },
+  "npmClientArgs": ["--ignore-scripts"],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "registry": "https://npm.pkg.github.com/"
 }
