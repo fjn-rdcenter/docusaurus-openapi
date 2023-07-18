@@ -1,6 +1,6 @@
 {
   "name": "@fjn-rdcenter/create-docusaurus-openapi",
-  "version": "0.7.0",
+  "version": "0.7.2",
   "description": "Create Docusaurus apps easily.",
   "repository": {
     "type": "git",
